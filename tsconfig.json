@@ -15,7 +15,34 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@appschell/core": ["libs/core/src/index.ts"],
+      "@appschell/shared": ["libs/shared/src/index.ts"],
+      "@appschell/ui": ["libs/ui/src/index.ts"],
+      "@appschell/shared/material": ["libs/shared/material/src/index.ts"],
+      "@appschell/shared/src/lib/material": [
+        "libs/shared/src/lib/material/src/index.ts"
+      ],
+      "@appschell/shared/src/lib/components": [
+        "libs/shared/src/lib/components/src/index.ts"
+      ],
+      "@appschell/shared/src/lib/api": ["libs/shared/src/lib/api/src/index.ts"],
+      "@appschell/core/src/lib/app-initializer": [
+        "libs/core/src/lib/app-initializer/src/index.ts"
+      ],
+      "@appschell/core/src/lib/authentication": [
+        "libs/core/src/lib/authentication/src/index.ts"
+      ],
+      "@appschell/core/src/lib/authorization": [
+        "libs/core/src/lib/authorization/src/index.ts"
+      ],
+      "@appschell/core/src/lib/guards": [
+        "libs/core/src/lib/guards/src/index.ts"
+      ],
+      "@appschell/core/src/lib/translation": [
+        "libs/core/src/lib/translation/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

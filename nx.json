@@ -13,6 +13,39 @@
     },
     "appschell": {
       "tags": []
+    },
+    "core": {
+      "tags": []
+    },
+    "shared": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    },
+    "material": {
+      "tags": []
+    },
+    "components": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
+    },
+    "app-initializer": {
+      "tags": []
+    },
+    "authentication": {
+      "tags": []
+    },
+    "authorization": {
+      "tags": []
+    },
+    "guards": {
+      "tags": []
+    },
+    "translation": {
+      "tags": []
     }
   }
 }

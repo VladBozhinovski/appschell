@@ -1,0 +1,9 @@
+module.exports = {
+  name: 'core-src-lib-authentication',
+  preset: '../../../../../jest.config.js',
+  coverageDirectory: '../../../../../coverage/libs/core/src/lib/authentication',
+  snapshotSerializers: [
+    'jest-preset-angular/AngularSnapshotSerializer.js',
+    'jest-preset-angular/HTMLCommentSerializer.js'
+  ]
+};
